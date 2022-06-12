@@ -1,0 +1,97 @@
+/* .container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+} */
+
+/* .container h1
+{        display: flex; 
+ 
+  justify-content: center;
+
+} */
+.container 
+{        display: flex; 
+  
+  justify-content: center;
+  align-items: center;
+
+}
+.player
+{ 
+  display: flex; 
+  
+  /* justify-content: center;
+  align-items: center; */
+  flex-wrap: wrap;
+
+
+}
+.dice 
+{ font-size: 4.5vw;
+  
+  font-family: 'Sacramento', cursive;
+  margin: auto;
+}
+.dice p{
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+  .H1
+  {
+    /* justify-content: center;
+    flex-wrap: wrap; */
+    font-family: 'Sacramento', cursive;
+    display: block;
+    text-align: center;
+    font-size: 8vw  ;
+    margin: 40px;
+  }
+body
+{
+  background-color: aquamarine;
+}
+footer
+{
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(24, 58, 129);
+  font-size: 1.5vw;
+  text-align: center;
+  font-weight: bolder;
+}
